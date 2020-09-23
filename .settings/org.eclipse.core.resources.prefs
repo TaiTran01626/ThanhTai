@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/muabannhadat/config/WebMvcConfig.java=UTF-8
+encoding//src/main/java/com/muabannhadat/controller/AdminController.java=UTF-8
+encoding//src/main/java/com/muabannhadat/controller/CommentController.java=UTF-8
+encoding//src/main/java/com/muabannhadat/controller/FeedbackController.java=UTF-8
+encoding//src/main/java/com/muabannhadat/controller/MainController.java=UTF-8
+encoding//src/main/java/com/muabannhadat/controller/PostnewController.java=UTF-8
+encoding//src/main/java/com/muabannhadat/controller/UserController.java=UTF-8
+encoding//src/main/java/com/muabannhadat/service/impl/CommentImpl.java=UTF-8
+encoding//src/main/java/com/muabannhadat/service/impl/FeedbackImpl.java=UTF-8
+encoding//src/main/java/com/muabannhadat/service/impl/NewsPostedImpl.java=UTF-8
+encoding//src/main/java/com/muabannhadat/service/impl/UserImpl.java=UTF-8
+encoding//src/main/java/com/muabannhadat/validator/UserValidator.java=UTF-8
+encoding//src/main/resources/i18n/messages_vi_VN.properties=UTF-8
+encoding//src/main/resources/messages/validator_vn.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/resources/messages_vi_VN.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/views/feedback.jsp=UTF-8

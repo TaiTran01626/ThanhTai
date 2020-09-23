@@ -1,0 +1,38 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="spring"
+	uri="http://www.springframework.org/tags/form"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Mua Bán Nhà Đất Bất Động Sản Uy Tín</title>
+         <link href="${pageContext.request.contextPath}/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="${pageContext.request.contextPath}/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" media="all" />
+        <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+        <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <meta name="viewport" content="width=device-width,height=device-height,user-scalable=yes, initial-scale=1, minimum-scale=1.0, maximum-scale=3.0" >
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/js/easing.js"></script> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" />
+        <script type="text/javascript">
+            jQuery(document).ready(function ($)
+            {
+                $(".scroll").click(function (event)
+                {
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                });
+            });
+        </script>
+     
+    </head>
+    <body style="background: url(${pageContext.request.contextPath}/video/bann.jpg) fixed">
+        <jsp:include page="header.jsp"></jsp:include>
+        <jsp:include page="banner.jsp"></jsp:include>
+         <jsp:include page="content.jsp"></jsp:include> 
+        <jsp:include page="footer.jsp"></jsp:include>
+
+    </body>
+</html>

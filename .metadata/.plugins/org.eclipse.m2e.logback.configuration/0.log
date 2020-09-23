@@ -1,0 +1,16 @@
+2020-08-09 10:29:00,570 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-08-09 10:29:03,108 [Worker-2: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\Mr Hop\.tooling\gradle\versions.json (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_241]
+	at java.io.FileOutputStream.open(Unknown Source) ~[na:1.8.0_241]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_241]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:201) ~[com.google.guava_21.0.0.v20170206-1425.jar:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:189) ~[com.google.guava_21.0.0.v20170206-1425.jar:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:151) ~[com.google.guava_21.0.0.v20170206-1425.jar:na]
+	at com.google.common.io.CharSource.copyTo(CharSource.java:215) ~[com.google.guava_21.0.0.v20170206-1425.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:183) [org.eclipse.buildship.core_3.1.0.v20190501-0832.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:149) [org.eclipse.buildship.core_3.1.0.v20190501-0832.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:132) [org.eclipse.buildship.core_3.1.0.v20190501-0832.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:116) [org.eclipse.buildship.core_3.1.0.v20190501-0832.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:62) [org.eclipse.buildship.core_3.1.0.v20190501-0832.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
